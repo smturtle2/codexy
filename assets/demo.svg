@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="346" viewBox="0 0 1040 346" role="img" aria-labelledby="title desc">
+ <title id="title">Start codexy and connect a client</title>
+ <desc id="desc">Run codexy login, then codexy serve. Connect clients to http://127.0.0.1:8787/v1. Responses and Chat Completions support text, function calls, and streaming.</desc>
+ <rect width="1040" height="346" rx="18" fill="#101820"/>
+ <path d="M0 48h1040" stroke="#293a44"/>
+ <circle cx="26" cy="24" r="5" fill="#657985"/><circle cx="44" cy="24" r="5" fill="#657985"/><circle cx="62" cy="24" r="5" fill="#58e1cb"/>
+ <g font-family="ui-monospace, monospace" font-size="20">
+  <text x="88" y="31" fill="#b1c5ce" font-size="14">codexy — quick start</text>
+  <text x="32" y="94" fill="#58e1cb">$ <tspan fill="#f0f7fa">codexy login</tspan></text>
+  <text x="32" y="128" fill="#9eb4bf"># Sign in through your browser.</text>
+  <text x="32" y="179" fill="#58e1cb">$ <tspan fill="#f0f7fa">codexy serve</tspan></text>
+  <text x="32" y="213" fill="#9eb4bf">codexy listening on 127.0.0.1:8787</text>
+ </g>
+ <path d="M32 246h976" stroke="#293a44"/>
+ <text x="32" y="282" fill="#9eb4bf" font-family="system-ui, sans-serif" font-size="16">CLIENT BASE URL</text>
+ <text x="250" y="282" fill="#58e1cb" font-family="ui-monospace, monospace" font-size="20">http://127.0.0.1:8787/v1</text>
+ <text x="32" y="319" fill="#b1c5ce" font-family="system-ui, sans-serif" font-size="16">Responses · Chat Completions · Text · Function calls · Streaming</text>
+</svg>

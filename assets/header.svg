@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="280" viewBox="0 0 1040 280" role="img" aria-labelledby="title desc">
+  <title id="title">codexy</title>
+  <desc id="desc">Your Codex subscription. An OpenAI-compatible local API.</desc>
+  <rect width="1040" height="280" rx="24" fill="#101820"/>
+  <path d="M80 112l28 28-28 28M126 168h38" fill="none" stroke="#58e1cb" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="203" y="158" fill="#f0f7fa" font-family="ui-monospace, monospace" font-size="76" font-weight="700" letter-spacing="-4">codexy</text>
+  <text x="207" y="205" fill="#b1c5ce" font-family="system-ui, sans-serif" font-size="21">Your Codex subscription. An OpenAI-compatible local API.</text>
+  <path d="M794 77h140M864 77v50M864 153v50M794 203h140" fill="none" stroke="#24434b" stroke-width="2"/>
+  <circle cx="864" cy="140" r="8" fill="#58e1cb"/>
+</svg>
