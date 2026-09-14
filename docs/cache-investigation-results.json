@@ -1,0 +1,614 @@
+[
+  {
+    "path": "direct",
+    "time": "2026-09-14T08:07:02Z",
+    "status": 200,
+    "elapsed": 2.217,
+    "request_sha256": "c8d5db6d234aeb49585bd3c4cb9a47b7d4b7613fa4b74a02006d1661c2ee5cc3",
+    "input": 4574,
+    "details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 3840
+    },
+    "response_id": "resp_0ea72d92e5668794016aa7ab271a5887d0a7f89dd2290a8cdf",
+    "request_id": null,
+    "cf_ray": "a3ade5526af4d1cd-ICN",
+    "model": "gpt-5.6-luna",
+    "service_tier": "default",
+    "returned_cache_key": "codexy-live-cache-validation-20260914",
+    "retention": "24h",
+    "cache_options": null,
+    "diagnostics": null,
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "phase": "paced"
+  },
+  {
+    "path": "proxy",
+    "time": "2026-09-14T08:07:08Z",
+    "status": 200,
+    "elapsed": 1.015,
+    "request_sha256": "c8d5db6d234aeb49585bd3c4cb9a47b7d4b7613fa4b74a02006d1661c2ee5cc3",
+    "input": 4574,
+    "details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 3840
+    },
+    "response_id": "resp_0d4bc08214cf5a30016aa7ab2d09c087d09394cd68c3e54542",
+    "request_id": null,
+    "cf_ray": null,
+    "model": "gpt-5.6-luna",
+    "service_tier": "default",
+    "returned_cache_key": "codexy-live-cache-validation-20260914",
+    "retention": "24h",
+    "cache_options": null,
+    "diagnostics": null,
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "phase": "paced"
+  },
+  {
+    "path": "direct",
+    "time": "2026-09-14T08:07:14Z",
+    "status": 200,
+    "elapsed": 1.439,
+    "request_sha256": "c8d5db6d234aeb49585bd3c4cb9a47b7d4b7613fa4b74a02006d1661c2ee5cc3",
+    "input": 4574,
+    "details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 3840
+    },
+    "response_id": "resp_02b95177223fc414016aa7ab331ab887d08514e63d738f449a",
+    "request_id": null,
+    "cf_ray": "a3ade59d6ad1c9fd-ICN",
+    "model": "gpt-5.6-luna",
+    "service_tier": "default",
+    "returned_cache_key": "codexy-live-cache-validation-20260914",
+    "retention": "24h",
+    "cache_options": null,
+    "diagnostics": null,
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "phase": "paced"
+  },
+  {
+    "path": "proxy",
+    "time": "2026-09-14T08:07:20Z",
+    "status": 200,
+    "elapsed": 1.319,
+    "request_sha256": "c8d5db6d234aeb49585bd3c4cb9a47b7d4b7613fa4b74a02006d1661c2ee5cc3",
+    "input": 4574,
+    "details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 3840
+    },
+    "response_id": "resp_0e161f9a0e0495b1016aa7ab390ff887d084255264354659c1",
+    "request_id": null,
+    "cf_ray": null,
+    "model": "gpt-5.6-luna",
+    "service_tier": "default",
+    "returned_cache_key": "codexy-live-cache-validation-20260914",
+    "retention": "24h",
+    "cache_options": null,
+    "diagnostics": null,
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "phase": "paced"
+  },
+  {
+    "path": "direct",
+    "time": "2026-09-14T08:07:26Z",
+    "status": 200,
+    "elapsed": 1.538,
+    "request_sha256": "c8d5db6d234aeb49585bd3c4cb9a47b7d4b7613fa4b74a02006d1661c2ee5cc3",
+    "input": 4574,
+    "details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 3840
+    },
+    "response_id": "resp_08c7ba2fb57f5ead016aa7ab3f276c87d099df7bf24905c718",
+    "request_id": null,
+    "cf_ray": "a3ade5e85e40feab-ICN",
+    "model": "gpt-5.6-luna",
+    "service_tier": "default",
+    "returned_cache_key": "codexy-live-cache-validation-20260914",
+    "retention": "24h",
+    "cache_options": null,
+    "diagnostics": null,
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "phase": "paced"
+  },
+  {
+    "path": "proxy",
+    "time": "2026-09-14T08:07:32Z",
+    "status": 200,
+    "elapsed": 1.339,
+    "request_sha256": "c8d5db6d234aeb49585bd3c4cb9a47b7d4b7613fa4b74a02006d1661c2ee5cc3",
+    "input": 4574,
+    "details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 3840
+    },
+    "response_id": "resp_0fec2575d3b0c88e016aa7ab45105887d089a00906e69dcc22",
+    "request_id": null,
+    "cf_ray": null,
+    "model": "gpt-5.6-luna",
+    "service_tier": "default",
+    "returned_cache_key": "codexy-live-cache-validation-20260914",
+    "retention": "24h",
+    "cache_options": null,
+    "diagnostics": null,
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "phase": "paced"
+  },
+  {
+    "path": "direct",
+    "time": "2026-09-14T08:07:34Z",
+    "status": 200,
+    "elapsed": 1.293,
+    "request_sha256": "c8d5db6d234aeb49585bd3c4cb9a47b7d4b7613fa4b74a02006d1661c2ee5cc3",
+    "input": 4574,
+    "details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 3840
+    },
+    "response_id": "resp_05f8844269f4fe3a016aa7ab4682c087d08a4f038db32dd350",
+    "request_id": null,
+    "cf_ray": "a3ade6164be3ea30-ICN",
+    "model": "gpt-5.6-luna",
+    "service_tier": "default",
+    "returned_cache_key": "codexy-live-cache-validation-20260914",
+    "retention": "24h",
+    "cache_options": null,
+    "diagnostics": null,
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "phase": "burst"
+  },
+  {
+    "path": "proxy",
+    "time": "2026-09-14T08:07:35Z",
+    "status": 200,
+    "elapsed": 1.922,
+    "request_sha256": "c8d5db6d234aeb49585bd3c4cb9a47b7d4b7613fa4b74a02006d1661c2ee5cc3",
+    "input": 4574,
+    "details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 3840
+    },
+    "response_id": "resp_038a454f90ec6daa016aa7ab482a6887d0978ce080022858eb",
+    "request_id": null,
+    "cf_ray": null,
+    "model": "gpt-5.6-luna",
+    "service_tier": "default",
+    "returned_cache_key": "codexy-live-cache-validation-20260914",
+    "retention": "24h",
+    "cache_options": null,
+    "diagnostics": null,
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "phase": "burst"
+  },
+  {
+    "path": "direct",
+    "time": "2026-09-14T08:07:37Z",
+    "status": 200,
+    "elapsed": 1.525,
+    "request_sha256": "c8d5db6d234aeb49585bd3c4cb9a47b7d4b7613fa4b74a02006d1661c2ee5cc3",
+    "input": 4574,
+    "details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 3840
+    },
+    "response_id": "resp_0fd353f0e2fd866b016aa7ab49cca487d09514dbee1f742488",
+    "request_id": null,
+    "cf_ray": "a3ade62a6c6b8b5e-ICN",
+    "model": "gpt-5.6-luna",
+    "service_tier": "default",
+    "returned_cache_key": "codexy-live-cache-validation-20260914",
+    "retention": "24h",
+    "cache_options": null,
+    "diagnostics": null,
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "phase": "burst"
+  },
+  {
+    "path": "proxy",
+    "time": "2026-09-14T08:07:38Z",
+    "status": 200,
+    "elapsed": 1.284,
+    "request_sha256": "c8d5db6d234aeb49585bd3c4cb9a47b7d4b7613fa4b74a02006d1661c2ee5cc3",
+    "input": 4574,
+    "details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 3840
+    },
+    "response_id": "resp_026888846623d205016aa7ab4b2d2887d0a2de722d34b527dd",
+    "request_id": null,
+    "cf_ray": null,
+    "model": "gpt-5.6-luna",
+    "service_tier": "default",
+    "returned_cache_key": "codexy-live-cache-validation-20260914",
+    "retention": "24h",
+    "cache_options": null,
+    "diagnostics": null,
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "phase": "burst"
+  },
+  {
+    "path": "direct",
+    "time": "2026-09-14T08:07:40Z",
+    "status": 200,
+    "elapsed": 1.602,
+    "request_sha256": "c8d5db6d234aeb49585bd3c4cb9a47b7d4b7613fa4b74a02006d1661c2ee5cc3",
+    "input": 4574,
+    "details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "response_id": "resp_0312bd7a6e312fab016aa7ab4cb0a887d09b939b8920017e1d",
+    "request_id": null,
+    "cf_ray": "a3ade63bfe4fea13-ICN",
+    "model": "gpt-5.6-luna",
+    "service_tier": "default",
+    "returned_cache_key": "codexy-live-cache-validation-20260914",
+    "retention": "24h",
+    "cache_options": null,
+    "diagnostics": null,
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "phase": "burst"
+  },
+  {
+    "path": "proxy",
+    "time": "2026-09-14T08:07:41Z",
+    "status": 200,
+    "elapsed": 2.042,
+    "request_sha256": "c8d5db6d234aeb49585bd3c4cb9a47b7d4b7613fa4b74a02006d1661c2ee5cc3",
+    "input": 4574,
+    "details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 3840
+    },
+    "response_id": "resp_017658133618954b016aa7ab4e120087d0bc25fb29b7995964",
+    "request_id": null,
+    "cf_ray": null,
+    "model": "gpt-5.6-luna",
+    "service_tier": "default",
+    "returned_cache_key": "codexy-live-cache-validation-20260914",
+    "retention": "24h",
+    "cache_options": null,
+    "diagnostics": null,
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "phase": "burst"
+  },
+  {
+    "path": "direct",
+    "time": "2026-09-14T08:07:43Z",
+    "status": 200,
+    "elapsed": 1.381,
+    "request_sha256": "c8d5db6d234aeb49585bd3c4cb9a47b7d4b7613fa4b74a02006d1661c2ee5cc3",
+    "input": 4574,
+    "details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 3840
+    },
+    "response_id": "resp_090c6954f030f0fe016aa7ab502a0487d0a7466501ad6066fd",
+    "request_id": null,
+    "cf_ray": "a3ade652bfa616dd-ICN",
+    "model": "gpt-5.6-luna",
+    "service_tier": "default",
+    "returned_cache_key": "codexy-live-cache-validation-20260914",
+    "retention": "24h",
+    "cache_options": null,
+    "diagnostics": null,
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "phase": "burst"
+  },
+  {
+    "path": "proxy",
+    "time": "2026-09-14T08:07:45Z",
+    "status": 200,
+    "elapsed": 1.327,
+    "request_sha256": "c8d5db6d234aeb49585bd3c4cb9a47b7d4b7613fa4b74a02006d1661c2ee5cc3",
+    "input": 4574,
+    "details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 3840
+    },
+    "response_id": "resp_021d61947a200662016aa7ab517f3887d09bcf7fcee56368da",
+    "request_id": null,
+    "cf_ray": null,
+    "model": "gpt-5.6-luna",
+    "service_tier": "default",
+    "returned_cache_key": "codexy-live-cache-validation-20260914",
+    "retention": "24h",
+    "cache_options": null,
+    "diagnostics": null,
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "phase": "burst"
+  },
+  {
+    "path": "direct",
+    "time": "2026-09-14T08:07:46Z",
+    "status": 200,
+    "elapsed": 1.904,
+    "request_sha256": "c8d5db6d234aeb49585bd3c4cb9a47b7d4b7613fa4b74a02006d1661c2ee5cc3",
+    "input": 4574,
+    "details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 3840
+    },
+    "response_id": "resp_060e695a54aaceaf016aa7ab52f93c87d09cd3d4ac3ed86ab6",
+    "request_id": null,
+    "cf_ray": "a3ade663b9beeaab-ICN",
+    "model": "gpt-5.6-luna",
+    "service_tier": "default",
+    "returned_cache_key": "codexy-live-cache-validation-20260914",
+    "retention": "24h",
+    "cache_options": null,
+    "diagnostics": null,
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "phase": "burst"
+  },
+  {
+    "path": "proxy",
+    "time": "2026-09-14T08:07:48Z",
+    "status": 200,
+    "elapsed": 1.721,
+    "request_sha256": "c8d5db6d234aeb49585bd3c4cb9a47b7d4b7613fa4b74a02006d1661c2ee5cc3",
+    "input": 4574,
+    "details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 3840
+    },
+    "response_id": "resp_0517034229eccb16016aa7ab54fc4887d0b907cc0576ec60e8",
+    "request_id": null,
+    "cf_ray": null,
+    "model": "gpt-5.6-luna",
+    "service_tier": "default",
+    "returned_cache_key": "codexy-live-cache-validation-20260914",
+    "retention": "24h",
+    "cache_options": null,
+    "diagnostics": null,
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "phase": "burst"
+  },
+  {
+    "path": "direct",
+    "time": "2026-09-14T08:07:50Z",
+    "status": 200,
+    "elapsed": 2.06,
+    "request_sha256": "c8d5db6d234aeb49585bd3c4cb9a47b7d4b7613fa4b74a02006d1661c2ee5cc3",
+    "input": 4574,
+    "details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 3840
+    },
+    "response_id": "resp_0ad5ee047aa8fa43016aa7ab5685b887d0be1befefe8eb7a40",
+    "request_id": null,
+    "cf_ray": "a3ade67a6a7b6874-ICN",
+    "model": "gpt-5.6-luna",
+    "service_tier": "default",
+    "returned_cache_key": "codexy-live-cache-validation-20260914",
+    "retention": "24h",
+    "cache_options": null,
+    "diagnostics": null,
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "phase": "burst"
+  },
+  {
+    "path": "proxy",
+    "time": "2026-09-14T08:07:52Z",
+    "status": 200,
+    "elapsed": 1.404,
+    "request_sha256": "c8d5db6d234aeb49585bd3c4cb9a47b7d4b7613fa4b74a02006d1661c2ee5cc3",
+    "input": 4574,
+    "details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 3840
+    },
+    "response_id": "resp_0455466659f27602016aa7ab587be887d08d3696af1b1fb8c3",
+    "request_id": null,
+    "cf_ray": null,
+    "model": "gpt-5.6-luna",
+    "service_tier": "default",
+    "returned_cache_key": "codexy-live-cache-validation-20260914",
+    "retention": "24h",
+    "cache_options": null,
+    "diagnostics": null,
+    "reasoning": {
+      "context": "all_turns",
+      "effort": "medium",
+      "mode": "standard",
+      "summary": null
+    },
+    "text": {
+      "format": {
+        "type": "text"
+      },
+      "verbosity": "medium"
+    },
+    "phase": "burst"
+  }
+]

@@ -1,0 +1,63 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build ${{ matrix.target }}
+    runs-on: ${{ matrix.runner }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - target: x86_64-unknown-linux-gnu
+            runner: ubuntu-24.04
+          - target: aarch64-unknown-linux-gnu
+            runner: ubuntu-24.04-arm
+          - target: x86_64-apple-darwin
+            runner: macos-15-intel
+          - target: aarch64-apple-darwin
+            runner: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - name: Build binary
+        run: cargo build --release --locked
+      - name: Prepare release files
+        shell: bash
+        run: |
+          set -euo pipefail
+          binary="codexy-${{ matrix.target }}"
+          cp "target/release/codexy" "$binary"
+          if command -v sha256sum >/dev/null 2>&1; then
+            sha256sum "$binary" > "$binary.sha256"
+          else
+            shasum -a 256 "$binary" > "$binary.sha256"
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: codexy-${{ matrix.target }}
+          path: |
+            codexy-${{ matrix.target }}
+            codexy-${{ matrix.target }}.sha256
+          if-no-files-found: error
+
+  release:
+    name: Upload release assets
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: codexy-*
+          merge-multiple: true
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            codexy-*

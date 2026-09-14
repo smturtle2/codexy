@@ -1,0 +1,33 @@
+[package]
+name = "codexy"
+version = "0.1.0"
+edition = "2024"
+license = "EUPL-1.2"
+description = "Local OpenAI-compatible Codex subscription proxy"
+repository = "https://github.com/smturtle2/codexy"
+
+[dependencies]
+anyhow = "1"
+async-stream = "0.3"
+axum = "0.8"
+base64 = "0.22"
+bytes = "1"
+clap = { version = "4", features = ["derive", "env"] }
+futures-util = "0.3"
+rand = "0.8"
+reqwest = { version = "0.12", default-features = false, features = ["json", "stream", "rustls-tls"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["preserve_order"] }
+sha2 = "0.10"
+tokio = { version = "1", features = ["full"] }
+toml = "0.8"
+url = "2"
+webbrowser = "1"
+
+[dev-dependencies]
+tempfile = "3"
+tower = { version = "0.5", features = ["util"] }
+
+[profile.release]
+lto = "thin"
+strip = true
